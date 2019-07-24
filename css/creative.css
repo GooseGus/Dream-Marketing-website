@@ -199,16 +199,22 @@ section {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #5100FF;
+  color: white;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #5100FF !important;
+  color: white !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
+}
+
+.home-social-list a:hover {
+  font-size: 2.7rem;
+  color: white;
+
 }
 @media (min-width: 768px) {
   .navbar-default {
